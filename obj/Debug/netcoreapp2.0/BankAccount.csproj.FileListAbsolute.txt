@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\Dans_Git_Folder\c_sharp_stack\ORM\Entity\BankAccount\obj\Debug\netcoreapp2.0\BankAccount.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Dans_Git_Folder\c_sharp_stack\ORM\Entity\BankAccount\obj\Debug\netcoreapp2.0\BankAccount.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Dans_Git_Folder\c_sharp_stack\ORM\Entity\BankAccount\obj\Debug\netcoreapp2.0\BankAccount.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Dans_Git_Folder\c_sharp_stack\ORM\Entity\BankAccount\bin\Debug\netcoreapp2.0\BankAccount.deps.json
+C:\Users\Administrator\Desktop\Dans_Git_Folder\c_sharp_stack\ORM\Entity\BankAccount\bin\Debug\netcoreapp2.0\BankAccount.runtimeconfig.json
+C:\Users\Administrator\Desktop\Dans_Git_Folder\c_sharp_stack\ORM\Entity\BankAccount\bin\Debug\netcoreapp2.0\BankAccount.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\Dans_Git_Folder\c_sharp_stack\ORM\Entity\BankAccount\bin\Debug\netcoreapp2.0\BankAccount.dll
+C:\Users\Administrator\Desktop\Dans_Git_Folder\c_sharp_stack\ORM\Entity\BankAccount\bin\Debug\netcoreapp2.0\BankAccount.pdb
+C:\Users\Administrator\Desktop\Dans_Git_Folder\c_sharp_stack\ORM\Entity\BankAccount\obj\Debug\netcoreapp2.0\BankAccount.dll
+C:\Users\Administrator\Desktop\Dans_Git_Folder\c_sharp_stack\ORM\Entity\BankAccount\obj\Debug\netcoreapp2.0\BankAccount.pdb

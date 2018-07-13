@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Your Account";
+}
+<h2>@ViewData["Title"]</h2>
+@using BankAccount.Models
+@model Account
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="contaner">
+  <form class="form" asp-action="Transaction" asp-controller="Home" method="post">
+  <label asp-for="transaction"></label>
+  <input asp-for="transaction" type="text" name="transaction">
+  <span asp-validation-for="transaction"></span>
+  <button class="btn btn-success">Transact this Charge</button>
+  </form>
+
+  <table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Balance: </th>
+      <th scope="col">Transaction Ammount: </th>
+      <th scope="col">Transaction Date: </th>
+      <th scope="col">User ID: </th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var i in ViewBag.Accounts) 
+    {
+    <tr>
+      <td>$@i.balance</td>
+      <td>$@i.transaction</td>
+      <td>@i.transactionDate</td>
+      <td>@i.users_Id</td>
+    </tr>
+    }
+  </tbody>
+  </table>
+</div>

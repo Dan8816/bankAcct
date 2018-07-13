@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Registration Form";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+<div class="container" style="width: 60%;">
+    <form asp-controller="Home" asp-action="Register" name="NewUser" method="post">
+        <div class="form-group">
+            First Name: <span style="color:red;" asp-validation-for="first" ></span><input class="form-control"name="first" type="text" placeholder="...min 2 letters, alpha only">
+    
+            Last Name: <span style="color:red;" asp-validation-for="last"></span><input class="form-control"type="text" name="last" placeholder="...min 2 letters, alpha only">
+    
+            Email:   <span style="color:red;" asp-validation-for="email"></span>  <input class="form-control"  name="email"  placeholder="...limited to 255 characters"></textarea>
+    
+            Password: <span style="color:red;" asp-validation-for="password"></span><input type="password" name="password" class="form-control">
+
+            Password Confirm: <span style="color:red;" asp-validation-for="ConfirmPassword"></span><input type="password" name="confirmpassword" class="form-control">
+    
+    
+            <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+    </form>
+</div>
